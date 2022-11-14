@@ -17,6 +17,9 @@
 - [방화벽을 해제한 포트번호 추가](#방화벽을-해제한-포트번호-추가)
 - [MySQL 방화벽 서비스 추가](#MySQL-방화벽-서비스-추가)
 - [방화벽 서비스 재시작](#방화벽-서비스-재시작)
+- [DBeaver 툴에서 MySQL 사용](#DBeaver-툴에서-MySQL-사용)
+- [Test Connection](#Test-Connection)
+- [연결에 실패할 경우](#연결에-실패할-경우)
 
 ## DB
   - ### MySQL 8.ver 
