@@ -114,20 +114,20 @@
 
 - ### MySQL 서비스 추가
 
-<img width="1420" alt="MySQL 방화벽 서비스 추가" src="https://user-images.githubusercontent.com/51348720/201605149-edee9c09-1a97-4c43-a8ee-db962edb2fda.png">
+  <img width="1420" alt="MySQL 방화벽 서비스 추가" src="https://user-images.githubusercontent.com/51348720/201605149-edee9c09-1a97-4c43-a8ee-db962edb2fda.png">
 
   + #### "firewall-cmd --permanent --add-service=mysql" 명령어 사용
   + #### MySQL의 방화벽 서비스 추가
 
 - ### 방화벽 서비스 재시작
 
-<img width="1420" alt="방화벽 설정 후 재시작" src="https://user-images.githubusercontent.com/51348720/201605535-08f58fc7-ef5d-47f8-8542-a2bd568242b9.png">
+  <img width="1420" alt="방화벽 설정 후 재시작" src="https://user-images.githubusercontent.com/51348720/201605535-08f58fc7-ef5d-47f8-8542-a2bd568242b9.png">
 
   + #### "firewall-cmd --reload" 명령어 사용하여 방화벽 서비스
 
 - ### DBeaver 툴에서 MySQL 사용
 
-<img width="917" alt="Dbeaver connect 설정" src="https://user-images.githubusercontent.com/51348720/201606268-e406f493-1192-4a3f-a577-d37d2817dc7a.png">
+  <img width="917" alt="Dbeaver connect 설정" src="https://user-images.githubusercontent.com/51348720/201606268-e406f493-1192-4a3f-a577-d37d2817dc7a.png">
   
   + #### 메뉴바에서 데이터베이스 클릭 후 "새 데이터베이스 연결" 클릭
   + #### MySQL 선택 후 다음
@@ -135,14 +135,14 @@
 
 - ### Test Connection
 
-<img width="695" alt="connection 테스트" src="https://user-images.githubusercontent.com/51348720/201606918-ee9d9a1a-f4f1-4670-a243-0f30a99e5548.png">
+  <img width="695" alt="connection 테스트" src="https://user-images.githubusercontent.com/51348720/201606918-ee9d9a1a-f4f1-4670-a243-0f30a99e5548.png">
 
   + #### 왼쪽 하단 부분의 "Test Connection ... " 버튼 클릭
   + #### Connected 팝업이 뜰 시 확인 후 연결
 
 - ### 연결에 실패할 경우
 
-<img width="695" alt="publickey 설정(MySQL 8버전 이후부터)" src="https://user-images.githubusercontent.com/51348720/201607283-9264049e-abb2-4714-87e0-c307fb17fd02.png">
+  <img width="695" alt="publickey 설정(MySQL 8버전 이후부터)" src="https://user-images.githubusercontent.com/51348720/201607283-9264049e-abb2-4714-87e0-c307fb17fd02.png">
 
   + #### 연결에 실패할 경우에는 "Driver Properties" 탭 클릭 후 DB Driver 설정
   + #### "allowPublicKeyRetrieval" 선택 후 "True"로 변경
