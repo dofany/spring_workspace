@@ -122,3 +122,25 @@
 
   + #### "firewall-cmd --reload" 명령어 사용하여 방화벽 서비스
 
+- ### DBeaver 툴에서 MySQL 사용
+
+<img width="917" alt="Dbeaver connect 설정" src="https://user-images.githubusercontent.com/51348720/201606268-e406f493-1192-4a3f-a577-d37d2817dc7a.png">
+  
+  + #### 메뉴바에서 데이터베이스 클릭 후 "새 데이터베이스 연결" 클릭
+  + #### MySQL 선택 후 다음
+  + #### 호스트 및 포트 입력 후 해당 DB의 사용자 명과 비밀번호 입력
+
+- ### Test Connection
+
+<img width="695" alt="connection 테스트" src="https://user-images.githubusercontent.com/51348720/201606918-ee9d9a1a-f4f1-4670-a243-0f30a99e5548.png">
+
+  + #### 왼쪽 하단 부분의 "Test Connection ... " 버튼 클릭
+  + #### Connected 팝업이 뜰 시 확인 후 연결
+
+- ### 연결에 실패할 경우
+
+<img width="695" alt="publickey 설정(MySQL 8버전 이후부터)" src="https://user-images.githubusercontent.com/51348720/201607283-9264049e-abb2-4714-87e0-c307fb17fd02.png">
+
+  + #### 연결에 실패할 경우에는 "Driver Properties" 탭 클릭 후 DB Driver 설정
+  + #### "allowPublicKeyRetrieval" 선택 후 "True"로 변경
+  + #### 재연결 시도
