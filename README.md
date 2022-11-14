@@ -84,7 +84,7 @@
   + #### 우선적으로 모든 권한을 부여했으나 다른 사용자 생성 시 별도의 권한부여 가능
 
 - ### 설정한 권한 적용
-  + #### flush privileges;
+  + #### "flush privileges;" 명령어 사용
 
 - ### 방화벽 3306포트(mysql default포트) 개방
 
@@ -123,7 +123,7 @@
 
   <img width="1420" alt="방화벽 설정 후 재시작" src="https://user-images.githubusercontent.com/51348720/201605535-08f58fc7-ef5d-47f8-8542-a2bd568242b9.png">
 
-  + #### "firewall-cmd --reload" 명령어 사용하여 방화벽 서비스
+  + #### "firewall-cmd --reload" 명령어 사용하여 방화벽 서비스 재시작
 
 - ### DBeaver 툴에서 MySQL 사용
 
