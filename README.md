@@ -19,7 +19,7 @@
   - ### MySQL 8.ver 
 
 ## DB 환경세팅
-
+![Uploading MySQL repository 설치.png…]()
 - ### yum install -y https://dev.mysql.com/get/mysql80-community-release-el7-5.noarch.rpm
   + #### yum의 repository 설치
 
